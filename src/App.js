@@ -345,7 +345,7 @@ function App() {
       <h3 id="pa" onClick={reset}>
         Play Again
       </h3>
-      <h5>MD PRODUCTIONS v2</h5>
+      <h5>MD PRODUCTIONS</h5>
     </div>
   );
 }

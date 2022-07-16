@@ -3,3 +3,59 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.game-board{
+  width:700px;
+  height:600px;
+  background:lightblue;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-55%);
+}
+
+.top{
+  background:rgb(119, 119, 119);
+  border:1px solid white;
+  width:700px;
+  height:100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  font-size:3rem;
+}
+
+.body{
+  background:lightgrey;
+  width:700px;
+  height:500px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.square{
+  background:white;
+  box-shadow: 2px 1px  1px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 4px 3px  3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin:0.5rem;
+
+}
+
+#pa{
+  background:purple;
+  width:200px;
+  padding:1rem 2rem;
+  text-align: center;
+  border-radius:2rem;
+  position:absolute;
+  bottom:3%;
+  left:50%;
+  transform: translateX(-50%);
+  cursor:pointer;
+  color:rgb(235, 222, 222);
+  font-size:1.5rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+  display:none;
+}

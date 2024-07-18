@@ -38,7 +38,7 @@ function App() {
       p1Clicked.includes("2") &&
       p1Clicked.includes("3")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["1", "2", "3"];
       winning_sqrs.forEach((id) => {
@@ -51,7 +51,7 @@ function App() {
       p1Clicked.includes("5") &&
       p1Clicked.includes("6")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["4", "5", "6"];
       winning_sqrs.forEach((id) => {
@@ -64,7 +64,7 @@ function App() {
       p1Clicked.includes("8") &&
       p1Clicked.includes("9")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["7", "8", "9"];
       winning_sqrs.forEach((id) => {
@@ -77,7 +77,7 @@ function App() {
       p1Clicked.includes("4") &&
       p1Clicked.includes("7")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["1", "4", "7"];
       winning_sqrs.forEach((id) => {
@@ -90,7 +90,7 @@ function App() {
       p1Clicked.includes("5") &&
       p1Clicked.includes("8")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["2", "5", "8"];
       winning_sqrs.forEach((id) => {
@@ -103,7 +103,7 @@ function App() {
       p1Clicked.includes("6") &&
       p1Clicked.includes("9")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["3", "6", "9"];
       winning_sqrs.forEach((id) => {
@@ -116,7 +116,7 @@ function App() {
       p1Clicked.includes("5") &&
       p1Clicked.includes("9")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["1", "5", "9"];
       winning_sqrs.forEach((id) => {
@@ -129,7 +129,7 @@ function App() {
       p1Clicked.includes("5") &&
       p1Clicked.includes("7")
     ) {
-      header.textContent = `Player 1 wins`;
+      header.textContent = `Player 1 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["3", "5", "7"];
       winning_sqrs.forEach((id) => {
@@ -145,7 +145,7 @@ function App() {
       p2Clicked.includes("2") &&
       p2Clicked.includes("3")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["1", "2", "3"];
       winning_sqrs.forEach((id) => {
@@ -158,7 +158,7 @@ function App() {
       p2Clicked.includes("5") &&
       p2Clicked.includes("6")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["4", "5", "6"];
       winning_sqrs.forEach((id) => {
@@ -171,7 +171,7 @@ function App() {
       p2Clicked.includes("8") &&
       p2Clicked.includes("9")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["7", "8", "9"];
       winning_sqrs.forEach((id) => {
@@ -184,7 +184,7 @@ function App() {
       p2Clicked.includes("4") &&
       p2Clicked.includes("7")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["1", "4", "7"];
       winning_sqrs.forEach((id) => {
@@ -197,7 +197,7 @@ function App() {
       p2Clicked.includes("5") &&
       p2Clicked.includes("8")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["2", "5", "8"];
       winning_sqrs.forEach((id) => {
@@ -210,7 +210,7 @@ function App() {
       p2Clicked.includes("6") &&
       p2Clicked.includes("9")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["3", "6", "9"];
       winning_sqrs.forEach((id) => {
@@ -223,7 +223,7 @@ function App() {
       p2Clicked.includes("5") &&
       p2Clicked.includes("9")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["1", "5", "9"];
       winning_sqrs.forEach((id) => {
@@ -236,7 +236,7 @@ function App() {
       p2Clicked.includes("5") &&
       p2Clicked.includes("7")
     ) {
-      header.textContent = `Player 2 wins`;
+      header.textContent = `Player 2 wins!`;
       header.style.color = "black";
       const winning_sqrs = ["3", "5", "7"];
       winning_sqrs.forEach((id) => {

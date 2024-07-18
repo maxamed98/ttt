@@ -12,12 +12,12 @@ function App() {
     const sqr = document.getElementById(id);
     if (clicked.findIndex((num) => num == id) == -1 && !gameOver) {
       if (turn === "p1") {
-        sqr.style.background = "red";
+        sqr.style.background = "#f02805";
         setTurn("p2");
         setClicked((prev) => [...prev, id]);
         setP1Clicked((prev) => [...prev, id]);
       } else {
-        sqr.style.background = "blue";
+        sqr.style.background = "#197aea";
         setTurn("p1");
         setClicked((prev) => [...prev, id]);
         setP2Clicked((prev) => [...prev, id]);
@@ -43,7 +43,7 @@ function App() {
       const winning_sqrs = ["1", "2", "3"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -56,7 +56,7 @@ function App() {
       const winning_sqrs = ["4", "5", "6"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -69,7 +69,7 @@ function App() {
       const winning_sqrs = ["7", "8", "9"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -82,7 +82,7 @@ function App() {
       const winning_sqrs = ["1", "4", "7"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -95,7 +95,7 @@ function App() {
       const winning_sqrs = ["2", "5", "8"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -108,7 +108,7 @@ function App() {
       const winning_sqrs = ["3", "6", "9"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -121,7 +121,7 @@ function App() {
       const winning_sqrs = ["1", "5", "9"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -134,7 +134,7 @@ function App() {
       const winning_sqrs = ["3", "5", "7"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     }
@@ -150,7 +150,7 @@ function App() {
       const winning_sqrs = ["1", "2", "3"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -163,7 +163,7 @@ function App() {
       const winning_sqrs = ["4", "5", "6"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -176,7 +176,7 @@ function App() {
       const winning_sqrs = ["7", "8", "9"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -189,7 +189,7 @@ function App() {
       const winning_sqrs = ["1", "4", "7"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -202,7 +202,7 @@ function App() {
       const winning_sqrs = ["2", "5", "8"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -215,7 +215,7 @@ function App() {
       const winning_sqrs = ["3", "6", "9"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -228,7 +228,7 @@ function App() {
       const winning_sqrs = ["1", "5", "9"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = "#08f362";
       });
       setGameOver(true);
     } else if (
@@ -241,7 +241,7 @@ function App() {
       const winning_sqrs = ["3", "5", "7"];
       winning_sqrs.forEach((id) => {
         const sqr = document.getElementById(id);
-        sqr.style.background = "green";
+        sqr.style.background = '#08f362';
       });
       setGameOver(true);
     }
@@ -258,7 +258,7 @@ function App() {
   const reset = () => {
     const header = document.getElementById("headline");
     header.textContent = "Player 1's turn";
-    header.style.color = "white";
+    // header.style.color = "white";
     setTurn("p1");
     clicked.forEach((id) => {
       const square = document.getElementById(id);
@@ -273,7 +273,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div id="outer">
       <div className="game-board">
         <div className="top" id="headline"></div>
         <div className="body">
@@ -345,7 +345,6 @@ function App() {
       <h3 id="pa" onClick={reset}>
         Play Again
       </h3>
-      <h5>MD PRODUCTIONS</h5>
     </div>
   );
 }

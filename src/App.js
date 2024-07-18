@@ -246,6 +246,12 @@ function App() {
       setGameOver(true);
     }
     //-----------------------------------------------------------
+
+    if(clicked.length==9){
+      header.textContent = `Draw!`;
+      header.style.color = "black";
+      setGameOver(true)
+    }
   }, [turn]);
 
   useEffect(() => {
